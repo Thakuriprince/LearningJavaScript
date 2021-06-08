@@ -24,13 +24,39 @@ body {
     width: 600px;
     max-width: 100%;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .quiz-header {
     padding: 4rem;
 }
 
+h2 {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+button {
+    background-color: #55efc4;
+    border: none;
+    color: white;
+    display: block;
+    font-family: inherit;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 1.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #034432;
 }

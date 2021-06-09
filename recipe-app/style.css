@@ -15,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .mobile-container {
@@ -80,8 +81,28 @@ header button {
     width: 70px;
 }
 
-.meal {}
+.meal {
+    border-radius: 3px;
+    box-shadow: 0 0 10px 2px #3333331a;
+    margin: 1.5rem;
+    overflow: hidden;
+}
 
-.meal-header {}
+.meal-header {
+    position: relative;
+}
 
-.meal-body {}
+.meal-header .random {
+    position: absolute;
+    top: 1rem;
+    background-color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.meal-header img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
